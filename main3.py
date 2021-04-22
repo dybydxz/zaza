@@ -9,7 +9,7 @@ from parinya import LINE
 
 
 # Path to frozen detection graph. This is the actual model that is used for the object detection.
-PATH_TO_CKPT_HEAD = 'models/HEAD_DETECTION_300x300_ssd_mobilenetv2.pb'
+PATH_TO_CKPT_HEAD = 'model/HEAD_DETECTION_300x300_ssd_mobilenetv2zaza.pb'
 line =LINE('6NKd0tSpKCnpyOXxidyHRmbWAJmiuScGyOQEPhnOQ5X')
 
 #source = 'test_video/123.png'
