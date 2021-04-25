@@ -60,6 +60,7 @@ class TensoflowHeadDector(object):
         localtime = time.asctime( time.localtime(time.time()) )
 
         #count ตรงนี้ไม่แม่น
+        #print(classes)
         #if 0 < num_detections < 2 :            
             #print ("Detected",len(num_detections),localtime)
         #if num_detections == 0 :
