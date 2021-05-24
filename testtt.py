@@ -1,11 +1,10 @@
-from flask import Flask
-
-app = Flask(__name__)
+import mysql.connector 
 
 
-@app.route("/"
-def hello():
-    return "Hello world"
+mydb = mysql.connector(
+    host="locashost",
+    user="root",
+    passed="1234"
+)
 
-if __name__ == "__main__"
-    app.run(debug=True)
+print((mydb))

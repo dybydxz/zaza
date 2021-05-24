@@ -67,6 +67,8 @@ class TensoflowHeadDector(object):
             #print ("No one ",localtime)
         #if num_detections >= 2 :
             #print ("Too many people ",localtime)
+
+
         
         
 
